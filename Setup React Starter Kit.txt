@@ -1,0 +1,39 @@
+Setup React From Scratch 2018
+
+// initialize
+npm init -y
+
+// install developer packkage
+npm i --save-dev babel babel-core babel-loader
+npm i --save-dev babel-preset-es2015 babel-preset-react
+npm i --save-dev babel-plugin-transform-class-properties
+npm i --save-dev babel-plugin-transform-decorators-legacy
+npm i --save-dev babel-plugin-transform-react-jsx
+npm i --save-dev babel-plugin-transform-runtime
+npm i --save-dev webpack webpack-dev-server
+npm install --save-dev html-webpack-plugin
+
+// install 
+npm i react react-dom 
+npm i react-router react-router-dom
+npm i mobx mobx-react
+npm i moment moment-timezone
+npm i axios
+npm i css-loader
+npm i file-loader
+npm i style-loader
+
+// Boostrap 4 Styling
+http://reactstrap.github.io/
+npm install --save bootstrap@4.0.0-beta.3
+npm install --save reactstrap@next
+
+
+touch .babelrc
+
+{
+  "presets" : ["es2015", "react"]
+}
+
+Axios Sample Data Post
+https://github.com/axios/axios/issues/858
